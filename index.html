@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio BTS SIO SISR — Maël Bretagne — Épreuve E5</title>
+  <meta name="description" content="Portfolio professionnel BTS SIO option SISR pour l'épreuve E5 de Maël Bretagne. Fiches de situations professionnelles, schémas réseau, veille technologique et tableau de synthèse.">
+  
+  <!-- Polices Google Fonts (Plus Jakarta Sans & JetBrains Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Feuille de style principale -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. EN-TÊTE ET NAVIGATION (STICKY BLUR)
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">SISR</span>
+        <span>Maël Bretagne</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+          <li><a href="#a-propos" class="nav-link">À propos</a></li>
+          <li><a href="#parcours" class="nav-link">Parcours</a></li>
+          <li><a href="#realisations-e5" class="nav-link">Fiches E5</a></li>
+          <li><a href="#veille" class="nav-link">Veille</a></li>
+          <li><a href="#tableau-synthese" class="nav-link">Tableau E5</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Bouton mode sombre / clair -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Changer le thème">
+          ☀️ <span>Clair</span>
+        </button>
+
+        <!-- Bouton CV Header -->
+        <a href="assets/docs/cv.pdf" download class="btn btn-primary btn-sm">
+          <span>📄 Télécharger CV</span>
+        </a>
+
+        <!-- Bouton Burger pour Mobile -->
+        <button id="burger-menu" class="burger-btn" aria-label="Menu de navigation" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. SECTION ACCUEIL & PROFIL (HERO)
+         ========================================================================= -->
+    <section id="accueil" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge badge-cyan">BTS SIO SISR — Épreuve E5</span>
+            <span class="badge badge-purple">Session 2026</span>
+          </div>
+
+          <h1 class="hero-title">
+            Bonjour, je suis <br>
+            <span class="gradient-text">Maël Bretagne</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Actuellement <strong>Technicien Systèmes et Réseaux</strong> et candidat au <strong>BTS SIO (Services Informatiques aux Organisations)</strong>, option 
+            <strong>SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</strong>. 
+            Passionné par l'administration des systèmes d'entreprise, les infrastructures réseau et la virtualisation.
+          </p>
+
+          <!-- Zone Objectifs Professionnels -->
+          <div class="callout-fill" style="background: rgba(14, 165, 233, 0.08); border-color: rgba(14, 165, 233, 0.4);">
+            <span class="callout-icon">🎯</span>
+            <div class="callout-text" style="color: var(--text-main);">
+              <strong>Objectif Professionnel :</strong>
+              Poursuivre et évoluer en tant qu'<strong>Administrateur Système et Réseau Junior</strong>, afin d'approfondir la gestion d'infrastructures d'entreprise, la supervision et la virtualisation.
+            </div>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#realisations-e5" class="btn btn-primary btn-lg">
+              <span>🚀 Voir mes Réalisations E5</span>
+            </a>
+            <a href="#tableau-synthese" class="btn btn-secondary btn-lg">
+              <span>📊 Tableau de Synthèse E5</span>
+            </a>
+            <a href="assets/docs/cv.pdf" download class="btn btn-outline btn-lg">
+              <span>📥 Mon CV (PDF)</span>
+            </a>
+          </div>
+
+          <div class="hero-tags">
+            <span class="hero-tags-label">DOMAINES CLÉS :</span>
+            <span class="comp-tag">Réseau</span>
+            <span class="comp-tag">Active Directory</span>
+            <span class="comp-tag">Linux</span>
+            <span class="comp-tag">Virtualisation Proxmox/ESXi</span>
+            <span class="comp-tag">Supervision & Continuité</span>
+          </div>
+        </div>
+
+        <!-- Carte Profil avec Avatar -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="avatar-wrapper">
+              <!-- Déposez votre photo dans assets/img/avatar/photo.jpg et modifiez la source ici -->
+              <img src="assets/img/avatar/avatar-placeholder.svg" alt="Photo de profil Maël Bretagne" class="avatar-img">
+              <span class="profile-status" title="En poste / Technicien Systèmes et Réseaux"></span>
+            </div>
+
+            <h2 class="profile-name">Maël Bretagne</h2>
+            <p class="profile-role">Technicien Systèmes & Réseaux</p>
+            <p class="stat-label">📍 Besné (44160), Loire-Atlantique</p>
+
+            <div class="profile-stats">
+              <div class="stat-item">
+                <span class="stat-num">E5</span>
+                <span class="stat-label">Session 2026</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num">2 Ans</span>
+                <span class="stat-label">Veille technologique</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. SECTION À PROPOS DE MOI
+         ========================================================================= -->
+    <section id="a-propos" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">PRÉSENTATION PERSONNELLE</span>
+          <h2 class="section-title">À Propos de Moi</h2>
+          <p class="section-desc">Découvrez qui je suis, mon profil professionnel ainsi que mes centres d'intérêt.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Carte : Qui je suis ? -->
+          <div class="card">
+            <h3 class="card-title">
+              <span class="card-title-icon">👤</span>
+              Qui je suis ?
+            </h3>
+            <p style="color: var(--text-muted); margin-bottom: 1rem; line-height: 1.7;">
+              Je m'appelle <strong>Maël Bretagne</strong>, j'habite à <strong>Besné</strong> et j'exerce actuellement le métier de <strong>Technicien Systèmes et Réseaux</strong>. 
+              En parallèle de mes missions professionnelles sur le terrain, je prépare le <strong>BTS SIO option SISR (Session 2026)</strong> pour consolider mon expertise technique.
+            </p>
+            <p style="color: var(--text-muted); line-height: 1.7;">
+              Passionné par les infrastructures informatiques, la gestion des services d'annuaires et la continuité de service, mon ambition est de continuer mon évolution professionnelle en tant qu'<strong>Administrateur Système et Réseau Junior</strong>.
+            </p>
+          </div>
+
+          <!-- Carte : Points forts -->
+          <div class="card">
+            <h3 class="card-title">
+              <span class="card-title-icon">⚡</span>
+              Mes Points Forts
+            </h3>
+            <div class="skills-list">
+              <div class="skill-row">
+                <div class="skill-header">
+                  <span>Administrateur Réseau</span>
+                  <span style="color: var(--primary); font-weight: 700;">85%</span>
+                </div>
+                <div class="skill-progress"><div class="skill-bar" style="width: 85%;"></div></div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-header">
+                  <span>Windows Server</span>
+                  <span style="color: var(--primary); font-weight: 700;">80%</span>
+                </div>
+                <div class="skill-progress"><div class="skill-bar" style="width: 80%;"></div></div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-header">
+                  <span>Linux</span>
+                  <span style="color: var(--primary); font-weight: 700;">70%</span>
+                </div>
+                <div class="skill-progress"><div class="skill-bar" style="width: 70%;"></div></div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-header">
+                  <span>Virtualisation</span>
+                  <span style="color: var(--primary); font-weight: 700;">75%</span>
+                </div>
+                <div class="skill-progress"><div class="skill-bar" style="width: 75%;"></div></div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-header">
+                  <span>Rigueur</span>
+                  <span style="color: var(--primary); font-weight: 700;">85%</span>
+                </div>
+                <div class="skill-progress"><div class="skill-bar" style="width: 85%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carte : Centres d'intérêt -->
+          <div class="card" style="grid-column: span 2;">
+            <h3 class="card-title">
+              <span class="card-title-icon">💡</span>
+              Centres d’intérêt & Hobbies
+            </h3>
+            <div class="callout-fill" style="background: rgba(14, 165, 233, 0.08); border-color: rgba(14, 165, 233, 0.4);">
+              <span class="callout-icon">💡</span>
+              <div class="callout-text" style="color: var(--text-main);">
+                <strong>Passions & Activités :</strong>
+                Pratique technique en dehors du cadre académique : expérimentations d'infrastructures en laboratoire personnel, recherche éthique de failles de sécurité et activités sportives.
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 1rem;">
+              <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                  <strong style="color: var(--primary); font-size: 0.95rem; display: block; margin-bottom: 0.4rem;">🖥️ Homelab & Auto-hébergement</strong>
+                  <p style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.55;">[A REMPLIR : Ex. Serveur Proxmox personnel, conteneurs Docker, NAS TrueNAS, DNS Pi-hole]</p>
+                </div>
+              </div>
+              <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                  <strong style="color: var(--secondary); font-size: 0.95rem; display: block; margin-bottom: 0.4rem;">🛡️ Cybersécurité & Découverte de Failles</strong>
+                  <p style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.55;">
+                    Recherche éthique de vulnérabilités et Bug Bounty. Découverte, analyse et signalement responsable de failles de sécurité sur les plateformes <strong>Intigriti</strong> et <strong>YesWeHack</strong>.
+                  </p>
+                </div>
+                <div style="margin-top: 1rem;">
+                  <a href="https://app.intigriti.com/researcher/profile/dedeox" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="font-size: 0.825rem; padding: 0.4rem 0.85rem; display: inline-flex; align-items: center; gap: 0.45rem;">
+                    <span>🎯 Profil Chercheur Intigriti (dedeox) ↗</span>
+                  </a>
+                </div>
+              </div>
+              <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                  <strong style="color: var(--accent-purple); font-size: 0.95rem; display: block; margin-bottom: 0.4rem;">🏅 Sports & Activités</strong>
+                  <p style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.55;">[A REMPLIR : Ex. Pratique sportive, esprit d'équipe, engagement associatif]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carte Spéciale : Téléchargement du CV -->
+          <div class="cv-download-card">
+            <div class="cv-info">
+              <h3>Curriculum Vitae au format PDF</h3>
+              <p>Consultez mon CV complet détaillant l'ensemble de mes compétences, certifications et parcours.</p>
+              <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 0.35rem;">Fichier : <code>assets/docs/cv.pdf</code></p>
+            </div>
+            <div class="cv-buttons">
+              <!-- [A REMPLIR] : Déposez votre CV sous assets/docs/cv.pdf -->
+              <a href="assets/docs/cv.pdf" target="_blank" rel="noopener" class="btn btn-secondary">
+                <span>👁️ Aperçu en ligne</span>
+              </a>
+              <a href="assets/docs/cv.pdf" download class="btn btn-emerald">
+                <span>⬇️ Télécharger le CV (PDF)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. SECTION PARCOURS (ACADÉMIQUE / PRO / STAGES & ALTERNANCES)
+         ========================================================================= -->
+    <section id="parcours" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">EXPÉRIENCES & FORMATIONS</span>
+          <h2 class="section-title">Mon Parcours</h2>
+          <p class="section-desc">Historique de mes formations académiques, stages, alternances et missions en entreprise.</p>
+        </div>
+
+        <div data-tabs>
+          <!-- Navigation Onglets -->
+          <div class="tabs-nav">
+            <button class="tab-btn active" data-target="#tab-pro">💼 Parcours Professionnel (Stages & Alternances)</button>
+            <button class="tab-btn" data-target="#tab-acad">🎓 Parcours Académique</button>
+          </div>
+
+          <!-- Onglet Professionnel -->
+          <div id="tab-pro" class="tab-panel">
+            <div class="timeline">
+              <!-- Item Pro 1 : Alternance ou Stage 2 -->
+              <div class="timeline-item">
+                <span class="timeline-dot pro"></span>
+                <div class="timeline-content">
+                  <span class="timeline-date">[DATES : Ex. 2025 - 2026]</span>
+                  <h3 class="timeline-title">[A REMPLIR : Titre du poste / Alternant Administrateur Réseau]</h3>
+                  <span class="timeline-place">🏢 [A REMPLIR : Nom de l'entreprise / Organisation, Ville]</span>
+                  <p class="timeline-desc">
+                    [A REMPLIR : Description synthétique de vos missions quotidiennes, projets réalisés et technologies utilisées.]
+                  </p>
+                  <div class="hero-tags">
+                    <span class="comp-tag">Windows Server</span>
+                    <span class="comp-tag">Réseau Cisco</span>
+                    <span class="comp-tag">Support N2/N3</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item Pro 2 : Stage 1ère année -->
+              <div class="timeline-item">
+                <span class="timeline-dot pro"></span>
+                <div class="timeline-content">
+                  <span class="timeline-date">[DATES : Ex. Mai - Juin 2025 (Stage 1ère année)]</span>
+                  <h3 class="timeline-title">[A REMPLIR : Stagiaire Technicien Systèmes et Réseaux]</h3>
+                  <span class="timeline-place">🏢 [A REMPLIR : Nom de l'entreprise d'accueil, Ville]</span>
+                  <p class="timeline-desc">
+                    [A REMPLIR : Missions confiées lors du stage de 1ère année : inventaire de parc GLPI, migration de postes, déploiement d'images système, etc.]
+                  </p>
+                  <div class="hero-tags">
+                    <span class="comp-tag">GLPI / OCS</span>
+                    <span class="comp-tag">Déploiement WDS</span>
+                    <span class="comp-tag">Assistance Utilisateurs</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Onglet Académique -->
+          <div id="tab-acad" class="tab-panel" style="display: none;">
+            <div class="timeline">
+              <!-- Formation 1 : BTS SIO SISR -->
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                  <span class="timeline-date">[DATES : Ex. 2024 - 2026]</span>
+                  <h3 class="timeline-title">BTS SIO — Option SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</h3>
+                  <span class="timeline-place">🎓 [A REMPLIR : Nom de votre Lycée ou Centre de Formation, Ville]</span>
+                  <p class="timeline-desc">
+                    Formation axée sur la gestion du patrimoine informatique, l'administration système Linux/Windows, le routage et commutation Cisco, la sécurité périmétrique et le cloud.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Formation 2 : Baccalauréat -->
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                  <span class="timeline-date">[DATES : Ex. 2021 - 2024]</span>
+                  <h3 class="timeline-title">[A REMPLIR : Baccalauréat Général / STI2D / Bac Pro CIEL / SN]</h3>
+                  <span class="timeline-place">🎓 [A REMPLIR : Nom de l'établissement, Ville]</span>
+                  <p class="timeline-desc">
+                    [A REMPLIR : Mention obtenue, spécialités étudiées (ex: Numérique et Sciences Informatiques, SIN, etc.).]
+                  </p>
+                </div>
+              </div>
+
+              <!-- Formation 3 : Certifications -->
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                  <span class="timeline-date">[DATES : Ex. 2025]</span>
+                  <h3 class="timeline-title">Certifications Informatiques & Badges</h3>
+                  <span class="timeline-place">📜 [A REMPLIR : Organismes certificateurs (ex: Cisco NetAcad, Microsoft, PIX)]</span>
+                  <p class="timeline-desc">
+                    [A REMPLIR : Ex. Cisco CCNA 1 (ITN), NDG Linux Unhatched, Certification PIX, MOOC ANSSI SecNumAcadémie.]
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. SECTION RÉALISATIONS SISR (FICHES E5, SCHÉMAS & CONFIGURATIONS)
+         ========================================================================= -->
+    <section id="realisations-e5" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">ÉPREUVE E5 DU BTS SIO SISR</span>
+          <h2 class="section-title">Réalisations & Fiches E5</h2>
+          <p class="section-desc">
+            Présentation détaillée des situations professionnelles réalisées en entreprise ou en centre de formation. 
+            Chaque fiche comprend son contexte, ses objectifs, les schémas réseau et les captures de configuration associées.
+          </p>
+        </div>
+
+        <!-- Filtres par catégorie -->
+        <div class="tabs-nav" style="margin-bottom: 2rem;">
+          <button class="tab-btn filter-btn active" data-filter="all">Toutes les situations</button>
+          <button class="tab-btn filter-btn" data-filter="reseau">Réseau & Sécurité</button>
+          <button class="tab-btn filter-btn" data-filter="systeme">Systèmes & AD</button>
+          <button class="tab-btn filter-btn" data-filter="virt">Virtualisation & PRA</button>
+        </div>
+
+        <div class="fiches-grid">
+          <!-- FICHE E5 N°1 (Exemple Réseau) -->
+          <article class="fiche-card" data-category="reseau">
+            <div class="fiche-preview">
+              <span class="badge badge-cyan fiche-type-badge">Réseau</span>
+              <!-- Image schématisée avec ouverture Lightbox au clic -->
+              <a href="assets/img/schemas/schema-reseau-placeholder.svg" class="zoomable-img" data-caption="Schéma Réseau Fiche E5 n°1 : Segmentation VLAN et Routage">
+                <img src="assets/img/schemas/schema-reseau-placeholder.svg" alt="Schéma réseau fiche 1">
+              </a>
+            </div>
+            <div class="fiche-body">
+              <span class="fiche-number">FICHE E5 - SITUATION PROFESSIONNELLE N°1</span>
+              <!-- [A REMPLIR] : Titre de votre fiche -->
+              <h3 class="fiche-title">[A REMPLIR : Segmentation Réseau & Déploiement de VLANs avec Sécurisation inter-VLAN]</h3>
+              <p class="fiche-desc">
+                <!-- [A REMPLIR] : Contexte et résumé -->
+                [A REMPLIR : Contexte de l'entreprise (ex: Séparation des flux Voix, Gestion et Invités). Mise en place d'un routage inter-VLAN sur routeur Cisco et filtrage par ACL.]
+              </p>
+              
+              <div class="fiche-competences">
+                <span class="comp-tag">B2.1 Concevoir infrastructure</span>
+                <span class="comp-tag">B2.2 Installer réseau</span>
+                <span class="comp-tag">B2.4 Sécuriser accès</span>
+              </div>
+
+              <div class="fiche-footer">
+                <a href="fiches-e5.html#fiche-1" class="btn btn-outline btn-sm">
+                  <span>📄 Lire la fiche complète</span>
+                </a>
+                <a href="assets/img/captures/capture-cli-placeholder.svg" class="zoomable-img btn btn-secondary btn-sm" data-caption="Capture de configuration CLI Switch">
+                  <span>💻 Captures CLI</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- FICHE E5 N°2 (Exemple Système) -->
+          <article class="fiche-card" data-category="systeme">
+            <div class="fiche-preview">
+              <span class="badge badge-emerald fiche-type-badge">Système</span>
+              <a href="assets/img/captures/capture-cli-placeholder.svg" class="zoomable-img" data-caption="Capture d'écran Active Directory & DHCP">
+                <img src="assets/img/captures/capture-cli-placeholder.svg" alt="Capture d'écran système fiche 2">
+              </a>
+            </div>
+            <div class="fiche-body">
+              <span class="fiche-number">FICHE E5 - SITUATION PROFESSIONNELLE N°2</span>
+              <!-- [A REMPLIR] : Titre de la fiche 2 -->
+              <h3 class="fiche-title">[A REMPLIR : Migration et Sécurisation de l'Annuaire Active Directory & GPO]</h3>
+              <p class="fiche-desc">
+                <!-- [A REMPLIR] : Contexte et résumé -->
+                [A REMPLIR : Installation de Windows Server 2022, promotion en contrôleur de domaine, réplication DNS, serveur DHCP avec basculement et déploiement de stratégies de groupe (GPO).]
+              </p>
+
+              <div class="fiche-competences">
+                <span class="comp-tag">B1.1 Gérer le patrimoine</span>
+                <span class="comp-tag">B2.2 Installer système</span>
+                <span class="comp-tag">B2.4 Sécurité AD</span>
+              </div>
+
+              <div class="fiche-footer">
+                <a href="fiches-e5.html#fiche-2" class="btn btn-outline btn-sm">
+                  <span>📄 Lire la fiche complète</span>
+                </a>
+                <a href="assets/img/captures/capture-cli-placeholder.svg" class="zoomable-img btn btn-secondary btn-sm" data-caption="Capture PowerShell et interface Active Directory">
+                  <span>💻 Captures GUI/CLI</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- FICHE E5 N°3 (Exemple Virtualisation / Supervision) -->
+          <article class="fiche-card" data-category="virt">
+            <div class="fiche-preview">
+              <span class="badge badge-purple fiche-type-badge">Virtualisation</span>
+              <a href="assets/img/schemas/schema-reseau-placeholder.svg" class="zoomable-img" data-caption="Schéma d'architecture Cluster Proxmox VE et PRA">
+                <img src="assets/img/schemas/schema-reseau-placeholder.svg" alt="Schéma virtualisation fiche 3">
+              </a>
+            </div>
+            <div class="fiche-body">
+              <span class="fiche-number">FICHE E5 - SITUATION PROFESSIONNELLE N°3</span>
+              <!-- [A REMPLIR] : Titre de la fiche 3 -->
+              <h3 class="fiche-title">[A REMPLIR : Déploiement d'un Cluster Proxmox VE & Solution de Sauvegarde PBS]</h3>
+              <p class="fiche-desc">
+                <!-- [A REMPLIR] : Contexte et résumé -->
+                [A REMPLIR : Mise en production d'un environnement de virtualisation haute disponibilité avec Proxmox Backup Server, réplication des VMs et plan de reprise d'activité (PRA).]
+              </p>
+
+              <div class="fiche-competences">
+                <span class="comp-tag">B2.1 Concevoir infrastructure</span>
+                <span class="comp-tag">B2.3 Exploiter et superviser</span>
+                <span class="comp-tag">B1.5 Mettre à disposition</span>
+              </div>
+
+              <div class="fiche-footer">
+                <a href="fiches-e5.html#fiche-3" class="btn btn-outline btn-sm">
+                  <span>📄 Lire la fiche complète</span>
+                </a>
+                <a href="assets/img/schemas/schema-reseau-placeholder.svg" class="zoomable-img btn btn-secondary btn-sm" data-caption="Schéma de stockage et réplication">
+                  <span>🗺️ Schéma PRA</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="fiches-e5.html" class="btn btn-primary btn-lg">
+            <span>📚 Consulter toutes mes Fiches E5 détaillées & Schémas réseau</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. SECTION VEILLE TECHNOLOGIQUE (SUR 2 ANS)
+         ========================================================================= -->
+    <section id="veille" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">COMPÉTENCE B1.6 : ORGANISER SON DÉVELOPPEMENT PROFESSIONNEL</span>
+          <h2 class="section-title">Veille Technologique (Sur 2 Ans)</h2>
+          <p class="section-desc">
+            Suivi méthodique des évolutions technologiques, outils de collecte automatisés (flux RSS, newsletters, alertes) 
+            et synthèses annuelles rédigées pour l'épreuve E5.
+          </p>
+        </div>
+
+        <!-- Métadonnées & Outils de veille -->
+        <div class="veille-meta">
+          <div class="card">
+            <h3 class="card-title">
+              <span class="card-title-icon">🎯</span>
+              <!-- [A REMPLIR] : Votre sujet de veille -->
+              Sujet de Veille : [A REMPLIR : Ex. La Sécurisation des accès selon le modèle Zero Trust & SASE]
+            </h3>
+            <p style="color: var(--text-muted); margin-bottom: 1rem;">
+              <!-- [A REMPLIR] : Problématique de veille -->
+              <strong>Problématique :</strong> [A REMPLIR : En quoi le modèle Zero Trust transforme-t-il la sécurité des infrastructures réseau face à la disparition du périmètre traditionnel et à l'essor du télétravail ?]
+            </p>
+            <div class="callout-fill">
+              <span class="callout-icon">💡</span>
+              <div class="callout-text">
+                <strong>Méthodologie de Veille :</strong>
+                Veille active automatisée menée sur l'ensemble des 2 années de BTS SIO (2024-2026), avec classification par pertinence, synthèse critique et tests en environnement virtuel (Lab).
+              </div>
+            </div>
+          </div>
+
+          <!-- Outils de veille et Flux RSS -->
+          <div class="rss-tools-card">
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-main);">
+              📡 Dispositif de Collecte
+            </h4>
+            <div class="rss-item">
+              <span>📰</span>
+              <!-- [A REMPLIR] : Vos agrégateurs RSS -->
+              <div><strong>Agrégateur RSS :</strong> [A REMPLIR : Feedly / Inoreader]</div>
+            </div>
+            <div class="rss-item">
+              <span>🛡️</span>
+              <!-- [A REMPLIR] : Sources spécialisées -->
+              <div><strong>Sources de référence :</strong> ANSSI (CERT-FR), Zataz, LeMagIT</div>
+            </div>
+            <div class="rss-item">
+              <span>🔔</span>
+              <div><strong>Alertes :</strong> Google Alerts, Newsletters (BleepingComputer)</div>
+            </div>
+            <div class="rss-item">
+              <span>🗂️</span>
+              <div><strong>Stockage & Notes :</strong> Notion / Obsidian / Zotero</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Onglets Année 1 / Année 2 pour la veille -->
+        <div data-tabs>
+          <div class="tabs-nav">
+            <button class="tab-btn active" data-target="#veille-annee-2">📅 Année 2 : Évolutions Récentes & Synthèse</button>
+            <button class="tab-btn" data-target="#veille-annee-1">📅 Année 1 : Fondations & Découverte</button>
+          </div>
+
+          <!-- Articles Année 2 -->
+          <div id="veille-annee-2" class="tab-panel">
+            <!-- Article Exemple 1 Année 2 -->
+            <article class="article-card">
+              <div class="article-header">
+                <h4 class="article-title">[A REMPLIR : Titre de votre article clé Année 2]</h4>
+                <span class="article-date">[DATE : Ex. Mars 2026]</span>
+              </div>
+              <p style="color: var(--text-muted); font-size: 0.95rem;">
+                <!-- [A REMPLIR] : Résumé de l'article -->
+                [A REMPLIR : Résumé concis de l'article source et du contexte technologique abordé.]
+              </p>
+              <div class="article-annotation">
+                <strong>Analyse personnelle & Impact SISR :</strong>
+                <!-- [A REMPLIR] : Votre analyse pour le jury -->
+                [A REMPLIR : Expliquez l'impact concret de cette avancée sur le travail d'un administrateur systèmes et réseaux.]
+              </div>
+            </article>
+
+            <!-- Synthèse Année 2 -->
+            <div class="callout-fill" style="background: rgba(14, 165, 233, 0.08); border-color: rgba(14, 165, 233, 0.4);">
+              <span class="callout-icon">📌</span>
+              <div class="callout-text" style="color: var(--text-main);">
+                <strong>Synthèse de l'Année 2 :</strong><br>
+                [A REMPLIR : Résumez ici en quelques lignes la maturité technologique observée durant votre deuxième année et vos conclusions.]
+              </div>
+            </div>
+          </div>
+
+          <!-- Articles Année 1 -->
+          <div id="veille-annee-1" class="tab-panel" style="display: none;">
+            <article class="article-card">
+              <div class="article-header">
+                <h4 class="article-title">[A REMPLIR : Titre de votre premier article clé Année 1]</h4>
+                <span class="article-date">[DATE : Ex. Novembre 2024]</span>
+              </div>
+              <p style="color: var(--text-muted); font-size: 0.95rem;">
+                [A REMPLIR : Résumé de la source et introduction aux concepts clés de votre sujet.]
+              </p>
+              <div class="article-annotation">
+                <strong>Analyse personnelle & Impact SISR :</strong>
+                [A REMPLIR : Analyse des premiers enseignements et mise en perspective avec les cours du BTS.]
+              </div>
+            </article>
+
+            <div class="callout-fill" style="background: rgba(14, 165, 233, 0.08); border-color: rgba(14, 165, 233, 0.4);">
+              <span class="callout-icon">📌</span>
+              <div class="callout-text" style="color: var(--text-main);">
+                <strong>Synthèse de l'Année 1 :</strong><br>
+                [A REMPLIR : Bilan de la première année de veille technologique.]
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="veille.html" class="btn btn-outline btn-lg">
+            <span>🔎 Consulter l'espace complet de Veille Technologique</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. SECTION TABLEAU DE SYNTHÈSE (ANNEXE OFFICIELLE E5)
+         ========================================================================= -->
+    <section id="tableau-synthese" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">DOCUMENT OFFICIEL ÉPREUVE E5</span>
+          <h2 class="section-title">Tableau de Synthèse des Compétences</h2>
+          <p class="section-desc">
+            Matrice officielle de l'épreuve E5 associant les situations professionnelles (réalisations) 
+            aux compétences du référentiel BTS SIO SISR (Bloc 1 et Bloc 2).
+          </p>
+        </div>
+
+        <div class="card" style="margin-bottom: 2rem;">
+          <!-- Bannière Officielle Référentiel BTS SIO (Identique au document LibreOffice) -->
+          <div class="official-sheet-banner">
+            <div class="banner-top">
+              <div class="banner-title">BTS SERVICES INFORMATIQUES AUX ORGANISATIONS</div>
+              <div class="banner-session">SESSION 2026</div>
+            </div>
+            <div class="banner-main-title">
+              Tableau de synthèse des réalisations professionnelles
+            </div>
+            <div class="banner-meta-grid">
+              <div class="meta-item"><strong>NOM et prénom :</strong> Maël Bretagne</div>
+              <div class="meta-item"><strong>N° candidat :</strong> __________________</div>
+              <div class="meta-item"><strong>Centre de formation :</strong> CCI Mayenne</div>
+              <div class="meta-item"><strong>Option :</strong> SISR</div>
+              <div class="meta-item meta-url"><strong>Adresse URL du portfolio :</strong> <span style="font-family: var(--font-mono); color: var(--primary);">[URL hébergée sur O2switch]</span></div>
+            </div>
+          </div>
+
+          <!-- Barre d'outils et téléchargements directs -->
+          <div class="download-action-bar">
+            <span class="bar-label">💾 Téléchargement direct :</span>
+            <!-- Téléchargement direct du fichier LibreOffice Calc officiel -->
+            <a href="assets/docs/tableau-synthese-e5.ods" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.ods" class="btn btn-primary btn-sm">
+              <span>📥 Télécharger LibreOffice (.ods)</span>
+            </a>
+            <a href="tableau-synthese.html" class="btn btn-secondary btn-sm">
+              <span>🖥️ Plein écran</span>
+            </a>
+            <a href="assets/docs/tableau-synthese-e5.pdf" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.pdf" class="btn btn-secondary btn-sm">
+              <span>📄 PDF</span>
+            </a>
+            <a href="assets/docs/tableau-synthese-e5.xlsx" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.xlsx" class="btn btn-secondary btn-sm">
+              <span>📊 Excel</span>
+            </a>
+          </div>
+
+          <!-- Tableau de Synthèse Officiel BTS SIO Conforme Référentiel & LibreOffice -->
+          <div class="table-responsive">
+            <table class="synthese-official-table">
+              <thead>
+                <tr class="header-main">
+                  <th rowspan="2" class="col-realisation">
+                    Compétences mises en œuvre<br>
+                    <span class="sub-th">Réalisations professionnelles (intitulé et liste des documents et productions associés)</span>
+                  </th>
+                  <th rowspan="2" class="col-periode">
+                    Période<br>
+                    <span class="sub-th">(sous la forme du JJ/MM/AA au JJ/MM/AA)</span>
+                  </th>
+                  <th class="col-comp">Gérer le patrimoine informatique</th>
+                  <th class="col-comp">Répondre aux incidents et aux demandes d’assistance et d’évolution</th>
+                  <th class="col-comp">Développer la présence en ligne de l’organisation</th>
+                  <th class="col-comp">Travailler en mode projet</th>
+                  <th class="col-comp">Mettre à disposition des utilisateurs un service informatique</th>
+                  <th class="col-comp">Organiser son développement professionnel</th>
+                </tr>
+                <tr class="header-sub">
+                  <th class="sub-criteria">
+                    <ul>
+                      <li>▸ Recenser et identifier les ressources numériques</li>
+                      <li>▸ Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</li>
+                      <li>▸ Mettre en place et vérifier les niveaux d’habilitation associés à un service</li>
+                      <li>▸ Vérifier les conditions de la continuité d’un service informatique</li>
+                      <li>▸ Gérer des sauvegardes</li>
+                      <li>▸ Vérifier le respect des règles d’utilisation des ressources numériques</li>
+                    </ul>
+                  </th>
+                  <th class="sub-criteria">
+                    <ul>
+                      <li>▸ Collecter, suivre et orienter des demandes</li>
+                      <li>▸ Traiter des demandes concernant les services réseau et système, applicatifs</li>
+                      <li>▸ Traiter des demandes concernant les applications</li>
+                    </ul>
+                  </th>
+                  <th class="sub-criteria">
+                    <ul>
+                      <li>▸ Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
+                      <li>▸ Référencer les services en ligne de l’organisation et mesurer leur visibilité.</li>
+                      <li>▸ Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
+                    </ul>
+                  </th>
+                  <th class="sub-criteria">
+                    <ul>
+                      <li>▸ Analyser les objectifs et les modalités d’organisation d’un projet</li>
+                      <li>▸ Planifier les activités</li>
+                      <li>▸ Évaluer les indicateurs de suivi d’un projet et analyser les écarts</li>
+                    </ul>
+                  </th>
+                  <th class="sub-criteria">
+                    <ul>
+                      <li>▸ Réaliser les tests d’intégration et d’acceptation d’un service</li>
+                      <li>▸ Déployer un service</li>
+                      <li>▸ Accompagner les utilisateurs dans la mise en place d’un service</li>
+                    </ul>
+                  </th>
+                  <th class="sub-criteria">
+                    <ul>
+                      <li>▸ Mettre en place son environnement d’apprentissage personnel</li>
+                      <li>▸ Mettre en œuvre des outils et stratégies de veille informationnelle</li>
+                      <li>▸ Gérer son identité professionnelle</li>
+                      <li>▸ Développer son projet professionnel</li>
+                    </ul>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- 1. Réalisations en cours de formation (Exactement issues de LibreOffice) -->
+                <tr class="section-divider-row">
+                  <td colspan="8">Réalisation en cours de formation</td>
+                </tr>
+
+                <!-- Item 1 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">inventaire du stock de maintenance entreprise Halgand(600 poste)</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- Item 2 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">Instalation / administration windows /linux</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- Item 3 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">configuration de plusieur switch manageable de 48 port et de leur VLAN</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- Item 4 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">réaménagement d’une baie de brassage</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- Item 5 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">installation de poste client en entreprise</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- Item 6 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">inventaire logiciel du park en vu d’une mise a niveau global</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- Item 7 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">installation et mise a jour des postes de travail</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- Item 8 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">installation physique des poste de travail</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- Item 9 -->
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title">explication au utilisateur des évolutions des dernières mise a jour</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- 2. Réalisations en milieu professionnel en cours de première année -->
+                <tr class="section-divider-row">
+                  <td colspan="8">Réalisations en milieu professionnel en cours de première année</td>
+                </tr>
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title" style="color: var(--text-muted); font-style: italic;">[À renseigner]</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+
+                <!-- 3. Réalisations en milieu professionnel en cours de seconde année -->
+                <tr class="section-divider-row">
+                  <td colspan="8">Réalisations en milieu professionnel en cours de seconde année</td>
+                </tr>
+                <tr>
+                  <td class="cell-realisation">
+                    <div class="realisation-title" style="color: var(--text-muted); font-style: italic;">[À renseigner]</div>
+                  </td>
+                  <td class="cell-periode"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                  <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout-fill">
+            <span class="callout-icon">💡</span>
+            <div class="callout-text">
+              <strong>MODIFICATION & TÉLÉCHARGEMENT :</strong> 
+              Ce tableau reflète fidèlement votre fichier LibreOffice officiel. Vous pouvez télécharger le fichier <code>.ods</code> source, ou cocher interactivement les compétences au clic.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. SECTION CONTACT & RÉSEAUX
+         ========================================================================= -->
+    <section id="contact" class="section">
+      <div class="container container-narrow">
+        <div class="section-header">
+          <span class="section-tag">ME CONTACTER</span>
+          <h2 class="section-title">Prendre Contact</h2>
+          <p class="section-desc">Vous souhaitez échanger sur mon parcours, mes compétences SISR ou me proposer une opportunité ?</p>
+        </div>
+
+        <div class="card" style="text-align: center; padding: 3rem 2rem;">
+          <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+            <!-- [A REMPLIR] : Vos liens de contact -->
+            <a href="mailto:[VOTRE-EMAIL@DOMAINE.FR]" class="btn btn-primary btn-lg">
+              <span>✉️ [VOTRE EMAIL]</span>
+            </a>
+            <a href="https://linkedin.com/in/[VOTRE-PROFIL]" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
+              <span>💼 Profil LinkedIn</span>
+            </a>
+            <a href="https://github.com/[VOTRE-PSEUDO]" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
+              <span>🐙 Profil GitHub</span>
+            </a>
+            <a href="https://app.intigriti.com/researcher/profile/dedeox" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+              <span>🎯 Profil Intigriti</span>
+            </a>
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            Localisation : <strong>Besné (44160), Loire-Atlantique</strong> — Mobilité : Région nantaise / Saint-Nazaire
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       9. PIED DE PAGE (FOOTER)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Maël Bretagne — BTS SIO SISR (Session 2026)</div>
+          <p>Portfolio professionnel conçu pour la présentation de l'épreuve E5 du BTS Services Informatiques aux Organisations.</p>
+        </div>
+        <div>
+          <strong style="color: var(--text-main); display: block; margin-bottom: 0.75rem;">Accès Rapide</strong>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem;">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À Propos</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="fiches-e5.html">Fiches E5</a></li>
+            <li><a href="veille.html">Veille</a></li>
+            <li><a href="tableau-synthese.html">Tableau de Synthèse</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong style="color: var(--text-main); display: block; margin-bottom: 0.75rem;">Hébergement</strong>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">
+            Site statique optimisé pour hébergement sur <a href="https://www.o2switch.fr" target="_blank" rel="noopener">O2switch</a> via Apache / LiteSpeed avec compression et sécurité HTTPS.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Maël Bretagne. Tous droits réservés.</div>
+        <div>Prêt pour l'épreuve E5 — Session 2026</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       10. MODALE LIGHTBOX POUR SCHÉMAS ET CAPTURES
+       ========================================================================= -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-hidden="true">
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-close" aria-label="Fermer la vue agrandie">✕</button>
+      <img id="lightbox-img" src="" alt="Vue agrandie">
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- Script JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>

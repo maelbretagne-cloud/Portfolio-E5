@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de Synthèse E5 — BTS SIO SISR — Maël Bretagne</title>
+  <meta name="description" content="Tableau de synthèse officiel des situations professionnelles et compétences du référentiel pour l'épreuve E5 du BTS SIO SISR de Maël Bretagne.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .cell-center { text-align: center; font-size: 1.1rem; }
+    .situation-header { font-size: 0.85rem; font-weight: 700; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">SISR</span>
+        <span>Maël Bretagne</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#accueil" class="nav-link">Accueil</a></li>
+          <li><a href="index.html#a-propos" class="nav-link">À propos</a></li>
+          <li><a href="index.html#parcours" class="nav-link">Parcours</a></li>
+          <li><a href="fiches-e5.html" class="nav-link">Fiches E5</a></li>
+          <li><a href="veille.html" class="nav-link">Veille</a></li>
+          <li><a href="tableau-synthese.html" class="nav-link active">Tableau E5</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Changer le thème">
+          ☀️ <span>Clair</span>
+        </button>
+        <a href="assets/docs/cv.pdf" download class="btn btn-primary btn-sm">
+          <span>📄 Télécharger CV</span>
+        </a>
+        <button id="burger-menu" class="burger-btn" aria-label="Menu de navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <!-- En-tête -->
+      <div class="section-header">
+        <span class="section-tag">ANNEXE OFFICIELLE DU BTS SIO</span>
+        <h1 class="section-title">Tableau de Synthèse — Épreuve E5</h1>
+        <p class="section-desc">
+          Référentiel des compétences professionnelles mobilisées au cours des stages, alternances 
+          et réalisations en laboratoire pour l'option SISR.
+        </p>
+      </div>
+
+      <!-- Bannière Officielle Référentiel BTS SIO (Identique au document LibreOffice) -->
+      <div class="official-sheet-banner">
+        <div class="banner-top">
+          <div class="banner-title">BTS SERVICES INFORMATIQUES AUX ORGANISATIONS</div>
+          <div class="banner-session">SESSION 2026</div>
+        </div>
+        <div class="banner-main-title">
+          Tableau de synthèse des réalisations professionnelles
+        </div>
+        <div class="banner-meta-grid">
+          <div class="meta-item"><strong>NOM et prénom :</strong> Maël Bretagne</div>
+          <div class="meta-item"><strong>N° candidat :</strong> __________________</div>
+          <div class="meta-item"><strong>Centre de formation :</strong> CCI Mayenne</div>
+          <div class="meta-item"><strong>Option :</strong> SISR</div>
+          <div class="meta-item meta-url"><strong>Adresse URL du portfolio :</strong> <span style="font-family: var(--font-mono); color: var(--primary);">[URL hébergée sur O2switch]</span></div>
+        </div>
+      </div>
+
+      <!-- Barre d'outils et téléchargements directs -->
+      <div class="download-action-bar">
+        <span class="bar-label">💾 Formats disponibles en téléchargement direct :</span>
+        <!-- Téléchargement direct du fichier LibreOffice Calc officiel de l'utilisateur -->
+        <a href="assets/docs/tableau-synthese-e5.ods" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.ods" class="btn btn-primary">
+          <span>📥 Télécharger le fichier LibreOffice (.ods)</span>
+        </a>
+        <a href="assets/docs/tableau-synthese-e5.pdf" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.pdf" class="btn btn-secondary">
+          <span>📄 Format PDF</span>
+        </a>
+        <a href="assets/docs/tableau-synthese-e5.xlsx" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.xlsx" class="btn btn-secondary">
+          <span>📊 Format Excel (.xlsx)</span>
+        </a>
+        <button onclick="window.print()" class="btn btn-outline">
+          <span>🖨️ Imprimer la grille</span>
+        </button>
+      </div>
+
+      <!-- Notice explicative -->
+      <div class="callout-fill" style="margin-bottom: 2rem;">
+        <span class="callout-icon">💡</span>
+        <div class="callout-text">
+          <strong>TABLEAU EXACT CONFORME À VOTRE FICHIER LIBREOFFICE :</strong><br>
+          Retrouvez ci-dessous vos réalisations saisies dans LibreOffice Calc. Vous pouvez cocher directement les compétences dans les cases du tableau ci-dessous en cliquant dessus, ou télécharger le document <code>.ods</code> officiel pour le modifier dans LibreOffice.
+        </div>
+      </div>
+
+      <!-- Tableau de Synthèse Officiel Conforme Référentiel BTS SIO & LibreOffice -->
+      <div class="table-responsive">
+        <table class="synthese-official-table" id="table-synthese-interactive">
+          <thead>
+            <tr class="header-main">
+              <th rowspan="2" class="col-realisation">
+                Compétences mises en œuvre<br>
+                <span class="sub-th">Réalisations professionnelles (intitulé et liste des documents et productions associés)</span>
+              </th>
+              <th rowspan="2" class="col-periode">
+                Période<br>
+                <span class="sub-th">(sous la forme du JJ/MM/AA au JJ/MM/AA)</span>
+              </th>
+              <th class="col-comp">Gérer le patrimoine informatique</th>
+              <th class="col-comp">Répondre aux incidents et aux demandes d’assistance et d’évolution</th>
+              <th class="col-comp">Développer la présence en ligne de l’organisation</th>
+              <th class="col-comp">Travailler en mode projet</th>
+              <th class="col-comp">Mettre à disposition des utilisateurs un service informatique</th>
+              <th class="col-comp">Organiser son développement professionnel</th>
+            </tr>
+            <tr class="header-sub">
+              <th class="sub-criteria">
+                <ul>
+                  <li>▸ Recenser et identifier les ressources numériques</li>
+                  <li>▸ Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</li>
+                  <li>▸ Mettre en place et vérifier les niveaux d’habilitation associés à un service</li>
+                  <li>▸ Vérifier les conditions de la continuité d’un service informatique</li>
+                  <li>▸ Gérer des sauvegardes</li>
+                  <li>▸ Vérifier le respect des règles d’utilisation des ressources numériques</li>
+                </ul>
+              </th>
+              <th class="sub-criteria">
+                <ul>
+                  <li>▸ Collecter, suivre et orienter des demandes</li>
+                  <li>▸ Traiter des demandes concernant les services réseau et système, applicatifs</li>
+                  <li>▸ Traiter des demandes concernant les applications</li>
+                </ul>
+              </th>
+              <th class="sub-criteria">
+                <ul>
+                  <li>▸ Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
+                  <li>▸ Référencer les services en ligne de l’organisation et mesurer leur visibilité.</li>
+                  <li>▸ Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
+                </ul>
+              </th>
+              <th class="sub-criteria">
+                <ul>
+                  <li>▸ Analyser les objectifs et les modalités d’organisation d’un projet</li>
+                  <li>▸ Planifier les activités</li>
+                  <li>▸ Évaluer les indicateurs de suivi d’un projet et analyser les écarts</li>
+                </ul>
+              </th>
+              <th class="sub-criteria">
+                <ul>
+                  <li>▸ Réaliser les tests d’intégration et d’acceptation d’un service</li>
+                  <li>▸ Déployer un service</li>
+                  <li>▸ Accompagner les utilisateurs dans la mise en place d’un service</li>
+                </ul>
+              </th>
+              <th class="sub-criteria">
+                <ul>
+                  <li>▸ Mettre en place son environnement d’apprentissage personnel</li>
+                  <li>▸ Mettre en œuvre des outils et stratégies de veille informationnelle</li>
+                  <li>▸ Gérer son identité professionnelle</li>
+                  <li>▸ Développer son projet professionnel</li>
+                </ul>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- =================================================================
+                 1. RÉALISATIONS EN COURS DE FORMATION (Items issus de LibreOffice)
+                 ================================================================= -->
+            <tr class="section-divider-row">
+              <td colspan="8">Réalisation en cours de formation</td>
+            </tr>
+
+            <!-- Item 1 : inventaire du stock de maintenance entreprise Halgand(600 poste) -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">inventaire du stock de maintenance entreprise Halgand(600 poste)</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- Item 2 : Instalation / administration windows /linux -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">Instalation / administration windows /linux</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- Item 3 : configuration de plusieur switch manageable de 48 port et de leur VLAN -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">configuration de plusieur switch manageable de 48 port et de leur VLAN</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- Item 4 : réaménagement d’une baie de brassage -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">réaménagement d’une baie de brassage</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- Item 5 : installation de poste client en entreprise -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">installation de poste client en entreprise</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- Item 6 : inventaire logiciel du park en vu d’une mise a niveau global -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">inventaire logiciel du park en vu d’une mise a niveau global</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- Item 7 : installation et mise a jour des postes de travail -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">installation et mise a jour des postes de travail</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- Item 8 : installation physique des poste de travail -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">installation physique des poste de travail</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- Item 9 : explication au utilisateur des évolutions des dernières mise a jour -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title">explication au utilisateur des évolutions des dernières mise a jour</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- =================================================================
+                 2. RÉALISATIONS EN MILIEU PROFESSIONNEL EN COURS DE PREMIÈRE ANNÉE
+                 ================================================================= -->
+            <tr class="section-divider-row">
+              <td colspan="8">Réalisations en milieu professionnel en cours de première année</td>
+            </tr>
+
+            <!-- Ligne 2.1 vide prête à remplir -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title" style="color: var(--text-muted); font-style: italic;">[À renseigner]</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+
+            <!-- =================================================================
+                 3. RÉALISATIONS EN MILIEU PROFESSIONNEL EN COURS DE SECONDE ANNÉE
+                 ================================================================= -->
+            <tr class="section-divider-row">
+              <td colspan="8">Réalisations en milieu professionnel en cours de seconde année</td>
+            </tr>
+
+            <!-- Ligne 3.1 vide prête à remplir -->
+            <tr>
+              <td class="cell-realisation">
+                <div class="realisation-title" style="color: var(--text-muted); font-style: italic;">[À renseigner]</div>
+              </td>
+              <td class="cell-periode"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+              <td class="cell-check" title="Cliquer pour cocher/décocher"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Barre de téléchargement inférieure -->
+      <div class="download-action-bar" style="margin-top: 2rem;">
+        <span class="bar-label">📥 Télécharger votre tableau sous le format de votre choix :</span>
+        <a href="assets/docs/tableau-synthese-e5.ods" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.ods" class="btn btn-primary">
+          <span>📥 Fichier LibreOffice (.ods)</span>
+        </a>
+        <a href="assets/docs/tableau-synthese-e5.pdf" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.pdf" class="btn btn-secondary">
+          <span>📄 Fichier PDF (.pdf)</span>
+        </a>
+        <a href="assets/docs/tableau-synthese-e5.xlsx" download="BTS_SIO_2026_Tableau_de_synthese_E5_Mael_Bretagne.xlsx" class="btn btn-secondary">
+          <span>📊 Fichier Excel (.xlsx)</span>
+        </a>
+      </div>
+
+      <!-- Boutons navigation -->
+      <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 2rem;">
+        <a href="index.html#tableau-synthese" class="btn btn-secondary btn-lg">
+          <span>⬅️ Retour à l'accueil</span>
+        </a>
+        <a href="fiches-e5.html" class="btn btn-primary btn-lg">
+          <span>📚 Voir les fiches E5 détaillées</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="text-align: center;">
+      <p>&copy; 2026 Maël Bretagne — Portfolio BTS SIO SISR (Session 2026) — Épreuve E5</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

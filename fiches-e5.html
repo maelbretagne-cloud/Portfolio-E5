@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiches E5 Détaillées & Schémas Réseau — BTS SIO SISR — Maël Bretagne</title>
+  <meta name="description" content="Fiches descriptives des situations professionnelles de l'épreuve E5 du BTS SIO option SISR de Maël Bretagne. Schémas d'architecture et captures de configuration.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">SISR</span>
+        <span>Maël Bretagne</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#accueil" class="nav-link">Accueil</a></li>
+          <li><a href="index.html#a-propos" class="nav-link">À propos</a></li>
+          <li><a href="index.html#parcours" class="nav-link">Parcours</a></li>
+          <li><a href="fiches-e5.html" class="nav-link active">Fiches E5</a></li>
+          <li><a href="veille.html" class="nav-link">Veille</a></li>
+          <li><a href="tableau-synthese.html" class="nav-link">Tableau E5</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Changer le thème">
+          ☀️ <span>Clair</span>
+        </button>
+        <a href="assets/docs/cv.pdf" download class="btn btn-primary btn-sm">
+          <span>📄 Télécharger CV</span>
+        </a>
+        <button id="burger-menu" class="burger-btn" aria-label="Menu de navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <!-- En-tête de page -->
+      <div class="section-header">
+        <span class="section-tag">RÉALISATIONS SISR</span>
+        <h1 class="section-title">Fiches E5 Détaillées & Schémas Réseau</h1>
+        <p class="section-desc">
+          Documentation technique complète des situations professionnelles présentées pour l'épreuve E5.
+          Cliquez sur les schémas et captures pour les observer en plein écran.
+        </p>
+      </div>
+
+      <!-- Barre d'aide pour le remplissage -->
+      <div class="callout-fill" style="margin-bottom: 3rem;">
+        <span class="callout-icon">💡</span>
+        <div class="callout-text">
+          <strong>CONSEIL JURY E5 :</strong> 
+          Chaque fiche ci-dessous est structurée selon le modèle attendu à l'épreuve : 
+          <strong>Contexte organisationnel</strong>, <strong>Objectifs & Contraintes</strong>, <strong>Solutions techniques</strong>, 
+          <strong>Compétences du référentiel</strong>, <strong>Schéma d'architecture</strong>, <strong>Captures de configuration (CLI/GUI)</strong> et <strong>Bilan réflexif</strong>.
+          Il vous suffit de remplacer les balises <code>[A REMPLIR]</code> par vos données réelles.
+        </div>
+      </div>
+
+      <!-- =====================================================================
+           FICHE SITUATION PROFESSIONNELLE N°1
+           ===================================================================== -->
+      <article id="fiche-1" class="card" style="margin-bottom: 3.5rem; padding: 2.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1.25rem;">
+          <div>
+            <span class="badge badge-cyan">SITUATION PROFESSIONNELLE 1 / STAGE OU PROJET</span>
+            <!-- [A REMPLIR] : Titre Fiche 1 -->
+            <h2 style="font-size: 1.85rem; font-weight: 800; margin-top: 0.5rem;">
+              [A REMPLIR : Fiche n°1 — Conception et Déploiement d'une Infrastructure Réseau Sécurisée avec VLANs & Routage Inter-VLAN]
+            </h2>
+          </div>
+          <div style="text-align: right;">
+            <span style="font-family: var(--font-mono); color: var(--primary); font-size: 0.85rem; display: block;">Cadre : [Stage 1ère année / Alternance / Projet PPE]</span>
+            <span style="color: var(--text-dim); font-size: 0.8rem;">Durée : [Ex. 3 semaines]</span>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+          <div>
+            <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">🏢 1. Contexte de l'Organisation</h3>
+            <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+              <!-- [A REMPLIR] : Contexte -->
+              [A REMPLIR : Présentez l'entreprise ou l'établissement (activité, nombre de collaborateurs, locaux, parc informatique existant, problématique rencontrée avant votre intervention).]
+            </p>
+          </div>
+          <div>
+            <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">🎯 2. Besoins & Contraintes</h3>
+            <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+              <!-- [A REMPLIR] : Besoins et contraintes -->
+              [A REMPLIR : Quels étaient les objectifs précis ? (ex: cloisonner le réseau des invités, sécuriser les flux comptables, garantir la continuité de service, budget, respect du plan d'adressage IP).]
+            </p>
+          </div>
+        </div>
+
+        <!-- Schéma Réseau de la Fiche 1 -->
+        <div style="margin-bottom: 2.5rem;">
+          <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">🗺️ 3. Schéma d'Architecture Réseau</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.75rem;">
+            (Cliquez sur l'image pour l'agrandir en haute définition avec la vue zoom)
+          </p>
+          <div style="max-height: 380px; overflow: hidden; border-radius: var(--radius-md); border: 1px solid var(--border-medium); background: var(--code-bg);">
+            <!-- [A REMPLIR] : Placez votre schéma dans assets/img/schemas/votre-schema.png -->
+            <a href="assets/img/schemas/schema-reseau-placeholder.svg" class="zoomable-img" data-caption="Topologie réseau Fiche 1 : Routeur Cisco, Switches de niveau 2/3 et cloisonnement des VLANs">
+              <img src="assets/img/schemas/schema-reseau-placeholder.svg" alt="Schéma réseau fiche 1" style="width: 100%; height: auto; cursor: zoom-in;">
+            </a>
+          </div>
+        </div>
+
+        <!-- Solutions Techniques & Déroulement -->
+        <div style="margin-bottom: 2rem;">
+          <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">⚙️ 4. Solutions Techniques Mises en Œuvre</h3>
+          <ul style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.7; padding-left: 1.25rem;">
+            <!-- [A REMPLIR] : Étapes de réalisation -->
+            <li>[A REMPLIR : Étape 1 — Élaboration du plan d'adressage IP (VLAN 10 Administration, VLAN 20 Collaborateurs, VLAN 30 Invités).]</li>
+            <li>[A REMPLIR : Étape 2 — Configuration des commutateurs Cisco (création des VLANs, affectation des ports d'accès et trunks 802.1Q).]</li>
+            <li>[A REMPLIR : Étape 3 — Mise en œuvre du routage inter-VLAN (Router-on-a-Stick avec sous-interfaces ou switch L3 SVI).]</li>
+            <li>[A REMPLIR : Étape 4 — Configuration du relais DHCP (IP Helper-Address) et des listes de contrôle d'accès (ACL).]</li>
+          </ul>
+        </div>
+
+        <!-- Captures de Configuration (CLI / GUI) -->
+        <div style="margin-bottom: 2rem;">
+          <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">💻 5. Captures de Configuration (CLI & Console)</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+            <div>
+              <p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.4rem;">Configuration Switch Cisco (VLAN & Trunk) :</p>
+              <a href="assets/img/captures/capture-cli-placeholder.svg" class="zoomable-img" data-caption="Extrait de configuration CLI Cisco : switchport mode trunk, vlan database">
+                <img src="assets/img/captures/capture-cli-placeholder.svg" alt="Capture CLI 1" style="border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); cursor: zoom-in;">
+              </a>
+            </div>
+            <div>
+              <p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.4rem;">Validation des routes et connectivité :</p>
+              <a href="assets/img/captures/capture-cli-placeholder.svg" class="zoomable-img" data-caption="Tests de connectivité ICMP, show ip route et show vlan brief">
+                <img src="assets/img/captures/capture-cli-placeholder.svg" alt="Capture CLI 2" style="border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); cursor: zoom-in;">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Compétences Référentiel Mobilisées -->
+        <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); margin-bottom: 2rem;">
+          <strong style="color: var(--primary); display: block; margin-bottom: 0.5rem; font-size: 0.9rem;">
+            📌 Compétences du Référentiel SISR Mobilisées :
+          </strong>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span class="comp-tag">B2.1 Concevoir une solution d'infrastructure</span>
+            <span class="comp-tag">B2.2 Installer et tester les éléments d'infrastructure</span>
+            <span class="comp-tag">B2.4 Sécuriser les accès et les équipements</span>
+            <span class="comp-tag">B1.4 Travailler en mode projet</span>
+          </div>
+        </div>
+
+        <!-- Bilan Réflexif -->
+        <div>
+          <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.5rem;">🔍 6. Bilan & Démarche Réflexive</h3>
+          <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+            <!-- [A REMPLIR] : Ce que vous avez appris, difficultés et solutions -->
+            <strong>Difficulté rencontrée :</strong> [A REMPLIR : Ex. Problème de tag 802.1Q entre le routeur et le switch, résolu par l'ajustement de la commande encapsulation dot1Q.]<br>
+            <strong>Évolutions envisageables :</strong> [A REMPLIR : Ex. Mise en place d'un protocole de redondance de passerelle (HSRP/VRRP) pour éliminer le point unique de défaillance.]
+          </p>
+        </div>
+      </article>
+
+      <!-- =====================================================================
+           FICHE SITUATION PROFESSIONNELLE N°2
+           ===================================================================== -->
+      <article id="fiche-2" class="card" style="margin-bottom: 3.5rem; padding: 2.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1.25rem;">
+          <div>
+            <span class="badge badge-emerald">SITUATION PROFESSIONNELLE 2 / SYSTÈMES & IDENTITÉ</span>
+            <h2 style="font-size: 1.85rem; font-weight: 800; margin-top: 0.5rem;">
+              [A REMPLIR : Fiche n°2 — Déploiement et Sécurisation d'un Contrôleur de Domaine Active Directory & Services Réseau DNS/DHCP]
+            </h2>
+          </div>
+          <div style="text-align: right;">
+            <span style="font-family: var(--font-mono); color: var(--secondary); font-size: 0.85rem; display: block;">Cadre : [Alternance / Stage / Laboratoire]</span>
+            <span style="color: var(--text-dim); font-size: 0.8rem;">Durée : [Ex. 2 semaines]</span>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+          <div>
+            <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">🏢 1. Contexte & Enjeux</h3>
+            <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+              <!-- [A REMPLIR] -->
+              [A REMPLIR : Présentation de l'environnement : nécessité de centraliser la gestion des comptes utilisateurs, sécuriser les postes de travail via GPO et assurer la distribution automatique des paramètres réseau.]
+            </p>
+          </div>
+          <div>
+            <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">🎯 2. Objectifs Techniques</h3>
+            <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+              <!-- [A REMPLIR] -->
+              [A REMPLIR : Promotion de Windows Server 2022 en DC, création de l'arborescence des Unités d'Organisation (OU), configuration des étendues DHCP avec réservation et basculement failover.]
+            </p>
+          </div>
+        </div>
+
+        <!-- Captures et Schéma AD -->
+        <div style="margin-bottom: 2.5rem;">
+          <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">💻 3. Captures de Configuration Active Directory & GPO</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+            <div>
+              <p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.4rem;">Arborescence des Unités d'Organisation (OU) :</p>
+              <a href="assets/img/captures/capture-cli-placeholder.svg" class="zoomable-img" data-caption="Console Utilisateurs et ordinateurs Active Directory">
+                <img src="assets/img/captures/capture-cli-placeholder.svg" alt="Capture AD" style="border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); cursor: zoom-in;">
+              </a>
+            </div>
+            <div>
+              <p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.4rem;">Stratégies de groupe (GPO) de sécurité :</p>
+              <a href="assets/img/captures/capture-cli-placeholder.svg" class="zoomable-img" data-caption="Console de gestion des stratégies de groupe (GPMC)">
+                <img src="assets/img/captures/capture-cli-placeholder.svg" alt="Capture GPO" style="border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); cursor: zoom-in;">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Compétences Mobilisées -->
+        <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+          <strong style="color: var(--secondary); display: block; margin-bottom: 0.5rem; font-size: 0.9rem;">
+            📌 Compétences du Référentiel SISR Mobilisées :
+          </strong>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span class="comp-tag">B1.1 Gérer le patrimoine informatique</span>
+            <span class="comp-tag">B2.2 Installer et déployer une infrastructure</span>
+            <span class="comp-tag">B2.4 Sécuriser les accès et les identités</span>
+            <span class="comp-tag">B1.5 Mettre à disposition un service informatique</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- =====================================================================
+           FICHE SITUATION PROFESSIONNELLE N°3
+           ===================================================================== -->
+      <article id="fiche-3" class="card" style="margin-bottom: 2rem; padding: 2.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1.25rem;">
+          <div>
+            <span class="badge badge-purple">SITUATION PROFESSIONNELLE 3 / VIRTUALISATION & CLOUD</span>
+            <h2 style="font-size: 1.85rem; font-weight: 800; margin-top: 0.5rem;">
+              [A REMPLIR : Fiche n°3 — Mise en place d'un Cluster de Virtualisation Proxmox VE avec Sauvegarde & PRA]
+            </h2>
+          </div>
+          <div style="text-align: right;">
+            <span style="font-family: var(--font-mono); color: var(--accent-purple); font-size: 0.85rem; display: block;">Cadre : [Projet / Stage 2]</span>
+            <span style="color: var(--text-dim); font-size: 0.8rem;">Durée : [Ex. 3 semaines]</span>
+          </div>
+        </div>
+
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
+          <!-- [A REMPLIR] -->
+          [A REMPLIR : Description complète de votre 3ème fiche E5 (Cluster haute disponibilité, migration de machines virtuelles à chaud, stockage partagé NFS/iSCSI ou Ceph, serveur de sauvegarde Proxmox Backup Server déporté).]
+        </p>
+
+        <div style="max-height: 380px; overflow: hidden; border-radius: var(--radius-md); border: 1px solid var(--border-medium); background: var(--code-bg); margin-bottom: 1.5rem;">
+          <a href="assets/img/schemas/schema-reseau-placeholder.svg" class="zoomable-img" data-caption="Architecture Proxmox VE, Réseau de stockage et Sauvegarde">
+            <img src="assets/img/schemas/schema-reseau-placeholder.svg" alt="Schéma virtualisation" style="width: 100%; height: auto; cursor: zoom-in;">
+          </a>
+        </div>
+
+        <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+          <strong style="color: var(--accent-purple); display: block; margin-bottom: 0.5rem; font-size: 0.9rem;">
+            📌 Compétences du Référentiel SISR Mobilisées :
+          </strong>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span class="comp-tag">B2.1 Concevoir une infrastructure de virtualisation</span>
+            <span class="comp-tag">B2.3 Exploiter et superviser les services</span>
+            <span class="comp-tag">B2.4 Assurer la continuité de service (PRA/PCA)</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bouton de retour -->
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="index.html#realisations-e5" class="btn btn-secondary btn-lg">
+          <span>⬅️ Retour à l'accueil du portfolio</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="text-align: center;">
+      <p>&copy; 2026 Maël Bretagne — Portfolio BTS SIO SISR (Session 2026) — Épreuve E5</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-hidden="true">
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-close" aria-label="Fermer la vue agrandie">✕</button>
+      <img id="lightbox-img" src="" alt="Vue agrandie">
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

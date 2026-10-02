@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veille Technologique sur 2 Ans — BTS SIO SISR — Maël Bretagne</title>
+  <meta name="description" content="Espace dédié à la veille technologique sur 2 ans pour l'épreuve E5 du BTS SIO option SISR de Maël Bretagne. Suivi méthodique, flux RSS, revues d'articles et synthèses thématiques.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">SISR</span>
+        <span>Maël Bretagne</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#accueil" class="nav-link">Accueil</a></li>
+          <li><a href="index.html#a-propos" class="nav-link">À propos</a></li>
+          <li><a href="index.html#parcours" class="nav-link">Parcours</a></li>
+          <li><a href="fiches-e5.html" class="nav-link">Fiches E5</a></li>
+          <li><a href="veille.html" class="nav-link active">Veille</a></li>
+          <li><a href="tableau-synthese.html" class="nav-link">Tableau E5</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Changer le thème">
+          ☀️ <span>Clair</span>
+        </button>
+        <a href="assets/docs/cv.pdf" download class="btn btn-primary btn-sm">
+          <span>📄 Télécharger CV</span>
+        </a>
+        <button id="burger-menu" class="burger-btn" aria-label="Menu de navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <!-- En-tête -->
+      <div class="section-header">
+        <span class="section-tag">COMPÉTENCE B1.6 : ORGANISER SON DÉVELOPPEMENT PROFESSIONNEL</span>
+        <h1 class="section-title">Veille Technologique (Sur 2 Ans)</h1>
+        <p class="section-desc">
+          Méthodologie de veille, outils de curation, flux RSS automatisés et analyse critique des avancées technologiques 
+          dans le domaine des systèmes et réseaux.
+        </p>
+      </div>
+
+      <!-- Présentation du Sujet et Problématique -->
+      <div class="card" style="margin-bottom: 2.5rem; padding: 2.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+          <div>
+            <span class="badge badge-cyan">THÉMATIQUE CENTRALE SUR 2 ANS</span>
+            <!-- [A REMPLIR] : Intitulé de votre sujet de veille -->
+            <h2 style="font-size: 1.75rem; font-weight: 800; margin-top: 0.5rem;">
+              [A REMPLIR : Sujet de Veille — Ex. La transition vers l'architecture Zero Trust et la sécurité des accès distants SASE]
+            </h2>
+          </div>
+          <span class="badge badge-purple" style="font-size: 0.85rem;">Période : 2024 — 2026</span>
+        </div>
+
+        <div style="background: var(--bg-surface); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); margin-bottom: 1.5rem;">
+          <strong style="color: var(--primary); font-size: 1.05rem; display: block; margin-bottom: 0.5rem;">
+            🎯 Problématique soumise au jury :
+          </strong>
+          <p style="color: var(--text-main); font-size: 1.05rem; font-style: italic;">
+            <!-- [A REMPLIR] : Votre problématique exacte -->
+            « [A REMPLIR : Comment le modèle Zero Trust répond-il aux nouveaux défis de sécurité imposés par la décentralisation des infrastructures, le cloud hybride et le nomadisme ?] »
+          </p>
+        </div>
+
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+          <!-- [A REMPLIR] : Justification du choix du sujet -->
+          <strong>Justification du choix du sujet :</strong><br>
+          [A REMPLIR : Expliquez pourquoi vous avez choisi ce sujet en lien avec votre parcours SISR (ex: confronté au problème lors de votre stage, intérêt pour la cybersécurité, remplacement des VPN traditionnels, etc.).]
+        </p>
+      </div>
+
+      <!-- Dispositif et Outils de Veille (Méthodologie) -->
+      <div class="card" style="margin-bottom: 3rem;">
+        <h3 class="card-title">
+          <span class="card-title-icon">⚙️</span>
+          Mon Dispositif de Collecte & Outils de Veille
+        </h3>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+          <!-- Outil 1 : Agrégateur RSS -->
+          <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <strong style="color: var(--primary); display: flex; align-items: center; gap: 0.5rem;">
+              <span>📡</span> Agrégation & Flux RSS
+            </strong>
+            <p style="color: var(--text-muted); font-size: 0.875rem; margin-top: 0.5rem;">
+              <!-- [A REMPLIR] -->
+              Utilisation de <strong>[Feedly / Inoreader]</strong> avec organisation par dossiers thématiques (Vulnérabilités, Réseau, Cloud, Réglementations).
+            </p>
+          </div>
+
+          <!-- Outil 2 : Sources institutionnelles & spécialisées -->
+          <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <strong style="color: var(--secondary); display: flex; align-items: center; gap: 0.5rem;">
+              <span>🛡️</span> Sources Spécialisées
+            </strong>
+            <p style="color: var(--text-muted); font-size: 0.875rem; margin-top: 0.5rem;">
+              <!-- [A REMPLIR] -->
+              Bulletins du <strong>CERT-FR / ANSSI</strong>, Zataz, LeMagIT, IT-Connect, The Hacker News, BleepingComputer.
+            </p>
+          </div>
+
+          <!-- Outil 3 : Alertes & Newsletters -->
+          <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <strong style="color: var(--accent-purple); display: flex; align-items: center; gap: 0.5rem;">
+              <span>🔔</span> Alertes & Curations
+            </strong>
+            <p style="color: var(--text-muted); font-size: 0.875rem; margin-top: 0.5rem;">
+              <!-- [A REMPLIR] -->
+              Alertes Google ciblées sur les mots-clés : <em>"Zero Trust"</em>, <em>"SASE"</em>, <em>"Micro-segmentation"</em>.
+            </p>
+          </div>
+
+          <!-- Outil 4 : Pratique & Expérimentation -->
+          <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <strong style="color: var(--accent-amber); display: flex; align-items: center; gap: 0.5rem;">
+              <span>🧪</span> Lab & Validation Pratique
+            </strong>
+            <p style="color: var(--text-muted); font-size: 0.875rem; margin-top: 0.5rem;">
+              <!-- [A REMPLIR] -->
+              Tests des concepts étudiés dans mon environnement de lab virtuel (Cloudflare Zero Trust, WireGuard, authentification MFA).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Articles Annotés & Synthèses sur 2 ans -->
+      <div data-tabs>
+        <div class="tabs-nav">
+          <button class="tab-btn active" data-target="#annee-2">📅 Année 2 (2025-2026) : Études de Cas & Synthèse</button>
+          <button class="tab-btn" data-target="#annee-1">📅 Année 1 (2024-2025) : Découverte & Fondamentaux</button>
+        </div>
+
+        <!-- ======================= ANNÉE 2 ======================= -->
+        <div id="annee-2" class="tab-panel">
+          <!-- Article 1 Année 2 -->
+          <article class="article-card">
+            <div class="article-header">
+              <div>
+                <span class="badge badge-cyan" style="margin-bottom: 0.35rem;">Article n°1 — Année 2</span>
+                <h3 class="article-title">[A REMPLIR : Titre de l'article — Ex. Déploiement concret du Zero Trust Network Access (ZTNA)]</h3>
+              </div>
+              <span class="article-date">[DATE : Ex. Février 2026]</span>
+            </div>
+            <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 0.75rem;">
+              Source : <strong>[A REMPLIR : Nom de la source / URL]</strong> — Auteur : [A REMPLIR]
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+              <!-- [A REMPLIR] : Résumé -->
+              <strong>Résumé de l'article :</strong><br>
+              [A REMPLIR : Résumez ici les points clés de l'article : comment les entreprises remplacent leurs concentrateurs VPN par des passerelles ZTNA basées sur l'identité et le contrôle contextuel des terminaux.]
+            </p>
+            <div class="article-annotation">
+              <strong>Analyse critique & Impact SISR :</strong>
+              <!-- [A REMPLIR] : Votre apport réflexif -->
+              [A REMPLIR : Indiquez ce que cet article apporte à votre compréhension de futur administrateur réseau : complexité de migration, impact sur l'annuaire d'entreprise, bénéfices en terme de réduction de la surface d'attaque.]
+            </div>
+          </article>
+
+          <!-- Article 2 Année 2 -->
+          <article class="article-card">
+            <div class="article-header">
+              <div>
+                <span class="badge badge-cyan" style="margin-bottom: 0.35rem;">Article n°2 — Année 2</span>
+                <h3 class="article-title">[A REMPLIR : Titre de l'article — Ex. L'impact de la directive européenne NIS 2 sur les politiques d'accès]</h3>
+              </div>
+              <span class="article-date">[DATE : Ex. Novembre 2025]</span>
+            </div>
+            <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 0.75rem;">
+              Source : <strong>[A REMPLIR : ANSSI / LeMagIT]</strong>
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+              <strong>Résumé de l'article :</strong><br>
+              [A REMPLIR : Présentation des exigences réglementaires imposées par NIS 2 aux entités essentielles et importantes en matière de contrôle des accès et de journalisation.]
+            </p>
+            <div class="article-annotation">
+              <strong>Analyse critique & Impact SISR :</strong>
+              [A REMPLIR : Comment l'administrateur SISR doit adapter ses procédures de traçabilité et de double authentification pour répondre à la conformité.]
+            </div>
+          </article>
+
+          <!-- Synthèse Thématique Globale Année 2 -->
+          <div class="card" style="background: linear-gradient(135deg, rgba(14, 165, 233, 0.08), rgba(139, 92, 246, 0.08)); border-color: rgba(14, 165, 233, 0.3); margin-top: 2rem;">
+            <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--text-main); margin-bottom: 1rem;">
+              📊 Synthèse Thématique — Année 2
+            </h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+              <!-- [A REMPLIR] : Synthèse rédigée pour le jury -->
+              [A REMPLIR : Rédigez ici une synthèse complète d'environ 15 à 25 lignes résumant l'évolution du sujet durant votre 2ème année de BTS. Mettez en avant le passage de la théorie à la pratique, les retours d'expérience du marché, et ce que vous en retenez pour votre futur métier.]
+            </p>
+          </div>
+        </div>
+
+        <!-- ======================= ANNÉE 1 ======================= -->
+        <div id="annee-1" class="tab-panel" style="display: none;">
+          <!-- Article 1 Année 1 -->
+          <article class="article-card">
+            <div class="article-header">
+              <div>
+                <span class="badge badge-emerald" style="margin-bottom: 0.35rem;">Article n°1 — Année 1</span>
+                <h3 class="article-title">[A REMPLIR : Titre de l'article — Ex. Définition et principes fondamentaux de l'architecture Zero Trust]</h3>
+              </div>
+              <span class="article-date">[DATE : Ex. Novembre 2024]</span>
+            </div>
+            <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 0.75rem;">
+              Source : <strong>[A REMPLIR : NIST SP 800-207 / Guide ANSSI]</strong>
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+              <strong>Résumé de l'article :</strong><br>
+              [A REMPLIR : Rappel du principe « Never Trust, Always Verify » et rupture avec le modèle périmétrique traditionnel de type château fort.]
+            </p>
+            <div class="article-annotation">
+              <strong>Analyse critique & Impact SISR :</strong>
+              [A REMPLIR : Vos premières réflexions d'étudiant de 1ère année lors de la découverte de ce modèle.]
+            </div>
+          </article>
+
+          <!-- Article 2 Année 1 -->
+          <article class="article-card">
+            <div class="article-header">
+              <div>
+                <span class="badge badge-emerald" style="margin-bottom: 0.35rem;">Article n°2 — Année 1</span>
+                <h3 class="article-title">[A REMPLIR : Titre de l'article — Ex. Les limites des VPN IPsec face aux attaques par rebond]</h3>
+              </div>
+              <span class="article-date">[DATE : Ex. Mars 2025]</span>
+            </div>
+            <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 0.75rem;">
+              Source : <strong>[A REMPLIR : Zataz / BleepingComputer]</strong>
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.6;">
+              <strong>Résumé de l'article :</strong><br>
+              [A REMPLIR : Explication de la façon dont un attaquant ayant compromis un compte VPN peut se déplacer latéralement sur tout le réseau local de l'entreprise.]
+            </p>
+            <div class="article-annotation">
+              <strong>Analyse critique & Impact SISR :</strong>
+              [A REMPLIR : Compréhension de la nécessité de la micro-segmentation réseau.]
+            </div>
+          </article>
+
+          <!-- Synthèse Année 1 -->
+          <div class="card" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(14, 165, 233, 0.08)); border-color: rgba(16, 185, 129, 0.3); margin-top: 2rem;">
+            <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--text-main); margin-bottom: 1rem;">
+              📊 Synthèse Thématique — Année 1
+            </h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+              [A REMPLIR : Bilan synthétique de la première année de veille : assimilation des définitions normatives (NIST), identification des vulnérabilités des architectures historiques et mise en place des flux de curation.]
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bouton de retour -->
+      <div style="text-align: center; margin-top: 3.5rem;">
+        <a href="index.html#veille" class="btn btn-secondary btn-lg">
+          <span>⬅️ Retour à l'accueil du portfolio</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="text-align: center;">
+      <p>&copy; 2026 Maël Bretagne — Portfolio BTS SIO SISR (Session 2026) — Épreuve E5</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

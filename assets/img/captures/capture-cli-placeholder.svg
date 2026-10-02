@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#0d1117" rx="10"/>
+  <!-- Barre titre de terminal -->
+  <rect width="800" height="40" fill="#161b22" rx="10"/>
+  <rect y="30" width="800" height="10" fill="#161b22"/>
+  <circle cx="25" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="45" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="65" cy="20" r="6" fill="#27c93f"/>
+  <text x="400" y="25" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="13">terminal — bash / powershell / cisco-cli</text>
+
+  <!-- Lignes de commande -->
+  <text x="30" y="80" fill="#7ee787" font-family="monospace" font-size="14">admin@srv-infra:~$</text>
+  <text x="200" y="80" fill="#e6edf3" font-family="monospace" font-size="14">ip a show eth0</text>
+  <text x="30" y="110" fill="#8b949e" font-family="monospace" font-size="13">2: eth0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc mq state UP</text>
+  <text x="50" y="135" fill="#8b949e" font-family="monospace" font-size="13">inet 10.0.10.254/24 brd 10.0.10.255 scope global eth0</text>
+
+  <text x="30" y="180" fill="#7ee787" font-family="monospace" font-size="14">admin@srv-infra:~$</text>
+  <text x="200" y="180" fill="#e6edf3" font-family="monospace" font-size="14">systemctl status isc-dhcp-server</text>
+  <text x="30" y="210" fill="#3fb950" font-family="monospace" font-size="13">● isc-dhcp-server.service - LSB: DHCP server</text>
+  <text x="50" y="235" fill="#8b949e" font-family="monospace" font-size="13">Loaded: loaded (/etc/init.d/isc-dhcp-server; generated)</text>
+  <text x="50" y="260" fill="#3fb950" font-family="monospace" font-size="13">Active: active (running) since Mon 2026-09-29 10:00:00 CEST</text>
+
+  <rect x="150" y="360" width="500" height="40" rx="8" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="400" y="385" text-anchor="middle" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">
+    [PLACEHOLDER] Ajoutez vos captures CLI ou GUI (.png / .jpg) ici
+  </text>
+</svg>
